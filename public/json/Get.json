@@ -1,0 +1,163 @@
+{"dataItems": {
+    "Sys_Items": {},
+    "OrganizeCategory": {
+        "Group": "集团",
+        "Area": "区域",
+        "Company": "公司",
+        "SubCompany": "子公司",
+        "Department": "部门",
+        "SubDepartment": "子部门",
+        "WorkGroup": "小组"
+    },
+    "RoleType": {
+        "1": "系统角色",
+        "2": "业务角色",
+        "3": "其他角色"
+    },
+    "DbType": {
+        "SqlServer": "SqlServer",
+        "Oracle": "Oracle",
+        "MySql": "MySql"
+    },
+    "DbLogType": {
+        "Other": "其他",
+        "Login": "登录",
+        "Exit": "退出",
+        "Visit": "访问",
+        "Create": "新增",
+        "Delete": "删除",
+        "Update": "修改",
+        "Submit": "提交",
+        "Exception": "异常"
+    },
+    "AuditState": {
+        "1": "草稿",
+        "2": "提交",
+        "3": "通过",
+        "4": "待审",
+        "5": "退回",
+        "6": "完成",
+        "7": "废弃"
+    },
+    "Certificate": {
+        "1": "身份证",
+        "2": "士兵证",
+        "3": "军官证",
+        "4": "护照",
+        "5": "其它"
+    },
+    "Education": {
+        "1": "小学",
+        "2": "初中",
+        "3": "高中",
+        "4": "中专",
+        "5": "大专",
+        "6": "本科",
+        "7": "硕士",
+        "8": "博士",
+        "9": "其他"
+    },
+    "101": {
+        "1": "已婚",
+        "2": "未婚",
+        "3": "离异",
+        "4": "丧偶",
+        "5": "其他"
+    },
+    "102": {
+        "1": "已育",
+        "2": "未育",
+        "3": "其他"
+    },
+    "103": {
+        "汉族": "汉族"
+    },
+    "104": {
+        "1": "男",
+        "0": "女"
+    }
+},
+"organize": {
+    "5AB270C0-5D33-4203-A54F-4552699FDA3C": {
+        "encode": "Company",
+        "fullname": "拢鑫窗帘"
+    },
+    "80E10CD5-7591-40B8-A005-BCDE1B961E76": {
+        "encode": "Administration",
+        "fullname": "行政部"
+    },
+    "F02A66CA-3D8B-491B-8A17-C9ACA3E3B5DD": {
+        "encode": "Financial",
+        "fullname": "财务部"
+    },
+    "253EDA1F-F158-4F3F-A778-B7E538E052A2": {
+        "encode": "Manufacturing",
+        "fullname": "生产部"
+    },
+    "DFA2FB91-C909-44A3-9282-BF946102E1C9": {
+        "encode": "HumanResourse",
+        "fullname": "人事部"
+    }
+},
+"role": {
+    "F0A2B36F-35A7-4660-B46C-D4AB796591EB": {
+        "encode": "administrators",
+        "fullname": "超级管理员"
+    },
+    "feae89e6-bf81-42b2-991d-42a04cf16817": {
+        "encode": "555866",
+        "fullname": "交易员"
+    },
+    "4B2140D3-E61D-488E-ADF6-FF0EBCBC5D2C": {
+        "encode": "system",
+        "fullname": "系统管理员"
+    },
+    "f4d14ccc-57dd-4c6f-94a1-b7c6be55c678": {
+        "encode": "测试管理员账户",
+        "fullname": "测试管理员账户"
+    },
+    "2DA8390B-61A4-4E6C-A6E7-8F6794C7EDCE": {
+        "encode": "tester",
+        "fullname": "操作员工"
+    }
+},
+"duty": {
+    "23ED024E-0AAA-4C8D-9216-D1AB93348D26": {
+        "encode": "employee",
+        "fullname": "员工"
+    },
+    "D335A5B8-7DED-495C-B8FC-EE933FB30779": {
+        "encode": "charge",
+        "fullname": "主管"
+    },
+    "796E9C6A-8432-4BA6-8CF6-EFFAB6F2098C": {
+        "encode": "general",
+        "fullname": "总经理"
+    },
+    "0CD2A952-2EE0-4CAF-9757-617D5075745B": {
+        "encode": "president",
+        "fullname": "董事长"
+    }
+},
+"user": {
+    "9f2ec079-7d0f-4fe2-90ab-8b09a8302aba": {
+        "encode": "admin",
+        "fullname": "超级管理员"
+    },
+    "9a302d6b-974f-4957-9ab2-be61a6b8787b": {
+        "encode": "admin",
+        "fullname": "asdffdsa"
+    },
+    "305806c7-05bc-40ac-9cb5-1f6277301512": {
+        "encode": "lxsuper",
+        "fullname": "拢鑫"
+    },
+    "ee3de201-7002-438d-b66e-8cf969d0614e": {
+        "encode": "xiaogao",
+        "fullname": "小高"
+    },
+    "2f300bd3-b0c2-4f30-aba8-432582c397b5": {
+        "encode": "xiaokuang",
+        "fullname": "小旷"
+    }
+},}

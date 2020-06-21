@@ -1,32 +1,42 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <el-container>
+      <el-header
+        style="background:#253443;
+      width: 100%;
+      position: fixed;
+      top: 0;"
+      >
+        <Header />
+      </el-header>
+      <el-container>
+        <el-aside
+          width="220px"
+          style="background:#253443;height: 100%;
+      position: fixed;
+      top: 60px;"
+        >
+          <SlideBar />
+        </el-aside>
+        <el-main style="
+      position: fixed;
+      top: 60px;left:220px;">
+          <router-view></router-view>
+        </el-main>
+      </el-container>
+    </el-container>
   </div>
 </template>
-
+<script>
+import Header from "@/components/common/Header.vue";
+import SlideBar from "@/components/common/SlideBar.vue";
+export default {
+  components: {
+    Header,
+    SlideBar
+  }
+};
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
+
