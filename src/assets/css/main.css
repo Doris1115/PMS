@@ -1,0 +1,570 @@
+body {
+}
+
+
+/**************重写fieldset样式开始******************/
+fieldset {
+    padding: 5px!important;
+    margin: 0px;
+    border: 1px solid silver;
+}
+
+legend {
+    font-size:15px; 
+    padding: 5px;
+    margin: 0px;
+    border: 0;
+    width: auto;
+    
+}
+
+/**************重写fieldset样式结束******************/
+
+/************款式模板开始****************/
+
+/**减号**/
+.span_minus { 
+    font-size: 30px;
+    color: #ccc;
+    display: block;
+    float: right;
+}
+
+    .span_minus:before {
+        content: "-";
+    }
+/**加号**/
+.span_plus {
+    font-size: 30px;
+    color: #ccc;
+    display: block;
+    float: right;
+}
+
+    .span_plus:before {
+        content: "+";
+    }
+
+        /**左三角**/
+.span_sanjiaol {
+    display: inline-block;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #000 transparent transparent;
+} 
+/**下三角**/
+.span_sanjiaod {
+    display: inline-block;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+}
+/************款式模板结束****************/
+
+/***************添加窗帘款式模板开始****************/
+#style-param, #locationOrderInfo, #styleParamInfo {
+    background-color: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 0px !important;
+}
+
+#locationOrderInfo .row,#styleParamInfo .row{
+    margin:0px;
+}
+
+
+ 
+.form-group  .control-label{    
+    padding-left:0px;
+    padding-right:0px;  
+    text-align:right; 
+}
+
+    #style-param .form-group {
+        /*margin:5px 5px;*/
+    }
+
+    #style-param fieldset {
+        height: 20px !important;
+    }
+
+#myform_container .form-group label {
+    text-align: right;
+}
+
+#styleImageThumbnail {
+    height: 500px;
+    overflow: auto;
+    border: 1px solid #e6e6e6;
+    padding: 5px 5px;
+}
+
+.myThumbnail {
+    border: 0;
+}
+
+    .myThumbnail:hover {
+        cursor: pointer;
+        opacity: 0.6;
+    }
+
+#myTab, #myTabContent {
+    border: 1px solid #e6e6e6;
+}
+
+#myTabContent {
+    height: 500px;
+    overflow: auto;
+}
+
+.thumbnailSelected {
+    border: 2px solid #0094ff !important;
+}
+
+#materialHead{
+    background-color:#e6e6e6;
+}
+
+/***************添加窗帘款式模板结束****************/
+/****标签css****/
+.washingMarkContainer {
+    width: 454px;
+    height: 189px;
+    margin: 0;
+    padding: 0px 46px;
+}
+
+    .washingMarkContainer .container-box {
+        border-left: 2px dashed #000;
+        border-right: 2px dashed #000;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    .washingMarkContainer .img-container {
+        width: 50%;
+        height: 189px;
+        position: relative;
+    }
+
+    .washingMarkContainer .logo-box {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .washingMarkContainer .img-container h1 {
+        position: absolute;
+        bottom: 30px;
+        left: 10px;
+        width: 150px;
+        font-weight: bold;
+        font-size: 16px;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .washingMarkContainer .text-container {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+        .washingMarkContainer .text-container p {
+            margin-bottom: 4px;
+            overflow: hidden;
+        }
+
+
+        .washingMarkContainer .text-container span {
+            float: left;
+            font-size: 12px;
+        }
+
+            .washingMarkContainer .text-container span:first-child {
+                width: 60px;
+                text-align: right;
+            }
+
+            .washingMarkContainer .text-container span:nth-child(2) {
+                text-align: left;
+                width: 110px;
+                /* white-space: nowrap; */
+            }
+
+    .washingMarkContainer .logo-box img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+.lcdBox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    width: 340px;
+}
+
+.liuchengdan {
+    width: 340px;
+    height: 451px;
+    background: #fff;
+    position: relative;
+    float: left;
+    /* border: 1px solid #000; */
+}
+
+.print-template01 .logo-box {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+    .print-template01 .logo-box img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .print-template01 .logo-box h1 {
+        font-size: 24px;
+        display: inline-block;
+        line-height: 50px;
+        vertical-align: bottom;
+    }
+
+.print-template01 .title-box {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    text-align: center;
+}
+
+.print-template01 .dcode {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+}
+.barCodeBox{
+    margin-left: 20px;
+
+}
+.dcode #orderBarcode {
+    width: 340px !important;
+    height: 80px !important;
+}
+
+    .dcode #orderBarcode img {
+        width: 300px;
+        height: 80px;
+        overflow: hidden;
+    }
+
+
+
+.print-template01 .dcode p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.print-template01 .detail-infor {
+    width: 200px;
+    position: absolute;
+    left: 70px;
+    bottom: 120px;
+}
+
+    .print-template01 .detail-infor p {
+        line-height: 32px;
+        font-size: 20px;
+        overflow: hidden;
+    }
+
+#employee .detail-infor span {
+    line-height: 42px;
+    font-size: 18px;
+    float: left;
+}
+
+#employee .detail-infor p span:nth-child(2) {
+    width: 130px;
+    border-bottom: 1px solid #000;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.liuchengdan .detail-infor {
+    width: 280px;
+    left: 30px;
+    top: 120px;
+}
+
+    .liuchengdan .detail-infor p {
+        line-height: 32px;
+        font-size: 16px;
+    }
+
+.print-template01 .employee-card {
+    position: absolute;
+    right: 20px;
+    top: 120px;
+    text-align: right;
+}
+
+    .print-template01 .employee-card h2 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .print-template01 .employee-card h1 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+#employee {
+    width: 340px;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+/*新增客户图片上传*/
+.upload-img{
+    background:#fff;
+    padding:20px;
+}
+    .upload-img .layui-upload {
+        width: 33%;
+        padding: 0 5px;
+        position:relative;
+        height:135px;
+        overflow:hidden;
+    }
+    .upload-img .fa-trash {
+        font-size:30px;
+        color:#FFF;
+        position:absolute;
+        top:10px;
+        right:20px;
+        z-index:99;
+    }
+    .upload-img .layui-upload-drag {
+        padding:0;
+        height:135px;
+    }
+.upload-img .blank-img {
+    margin-top: 30px;
+}
+.upload-img .layui-upload:hover .fa-trash {
+    color: #666;
+    display:block;
+}
+    .upload-img .layui-upload .fa-trash {
+        display:none;
+    }
+    .upload-img .img-box img{
+        width:100%;
+        height:135px;
+    }
+.new-organise .upload-img {
+    height:170px;
+}
+/*打印按钮下拉列表*/
+
+.print_btn_navbar {
+    background:#fff!important;
+    height:30px;
+    overflow:visible;
+}
+    .print_btn_navbar .layui-nav-item:first-child {
+        background: dodgerblue;
+    }
+.print_btn_navbar .layui-nav-item {
+    line-height:30px;
+}
+    .print_btn_navbar .layui-nav-item>a {
+        color: #fff !important;
+    }
+    .print_btn_navbar .layui-nav-child {
+        top: 36px;
+        left: -20px;
+    }
+/*打印订单*/
+.order_list {
+    width: 1123px;
+    height: 793px;
+    border: 1px solid #000;
+    /* background-color: red; */
+}
+
+    .order_list h1 {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 30px;
+        margin-bottom: 10px;
+    }
+
+.order_body thead {
+    font-size: 12px;
+}
+
+    .order_body thead td {
+        font-size: 12px;
+    }
+
+.order_body {
+    padding: 0 40px;
+}
+
+    .order_body .remarkbar {
+        height: 26px;
+        vertical-align: text-top;
+    }
+
+.order_list tbody {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+    .order_list tbody td {
+        border: 1px solid #000;
+        height: 24px;
+        font-size: 12px;
+    }
+
+        .order_list tbody td:first-child {
+            width: 130px;
+            overflow: hidden;
+        }
+
+            .order_list tbody td:first-child img {
+                width: 110px;
+                max-height: 140px;
+                margin: 10px;
+            }
+
+    .order_list tbody th {
+        border: 1px solid #000;
+    }
+
+.title_bar th {
+    text-align: center;
+    border: 1px solid #000;
+    height: 24px;
+}
+
+.order_body .craft_sapn {
+    overflow: hidden;
+}
+
+    .order_body .craft_sapn div {
+        width: 25%;
+        float: left;
+        line-height: 20px;
+        height: 20px;
+        overflow: hidden;
+        margin: 5px 0;
+        padding-left: 10px;
+    }
+
+        .order_body .craft_sapn div span {
+            float: left;
+            width: 40px;
+            height: 20px;
+            border: 1px solid #000;
+        }
+
+        .order_body .craft_sapn div p {
+            float: left;
+            line-height: 20px;
+            margin-left: 10px;
+            width: 10px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+/*工艺工序管理*/
+.moveBtn{
+    position:absolute;
+    top:130px;
+    right:2px;
+    width:40px;
+}
+.moveBtn a{
+    display:block;
+    margin-top:10px;
+
+}
+    .moveBtn span {
+        width: 40px;
+        height: 32px;
+        display:block;
+        line-height:32px;
+    }
+        .moveBtn span:hover {
+            background: #1f2c39!important;
+        }
+.left-panel {
+    width: 400px;
+    background: #fff;
+}
+
+.produre-manage .panel-body {
+    background: #f0f0f0;
+}
+.produre-manage.panel, .produre-manage .dcui-btn-area, .produre-manage .datagrid-body {
+    background: #fff;
+}
+.produre-manage .datagrid-body {
+}
+.datagrid-row-selected {
+    background: #5FB878;
+    color:#fff!important;
+}
+#StartDate, #EndDate {
+    height: 34px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    text-align:center;
+}
+.dcui-btn-default {
+    border: 1px solid #d4d4d4;
+    color: #333;
+}.dcui-btn-default:hover {
+    border: 0;
+    background: #009688;
+    color: #fff;
+}
+.btn_navbar{margin-bottom:0px;}
+/*收料管理*/
+.label-orange-all, .label-orange-none, .label-orange-part {
+    padding: 0;
+    font-weight: normal;
+    line-height: 22px;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    height: 22px;
+}
+.label-orange-all {
+    background: #DE895B;
+    color: #fff;
+}
+.label-orange-none {
+    background: #DE895B;
+    color: #000;
+}
+.label-orange-part {
+    color: #DE895B;
+    border: 1px solid #DE895B;
+}
